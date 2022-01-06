@@ -1,0 +1,35 @@
+.settings {
+  display: flex;
+  height: calc(100vh - 70px);
+  margin-top: 75px;
+}
+
+@media only screen and (max-width: 430px) {
+  .settings {
+    width: 430px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .settings {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .settings {
+    width: 375px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .settings {
+    width: 360px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .settings {
+    width: 320px;
+  }
+}

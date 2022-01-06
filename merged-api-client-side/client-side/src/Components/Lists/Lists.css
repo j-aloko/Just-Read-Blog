@@ -1,0 +1,47 @@
+.settinglistItems {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.profileListItems {
+  margin-bottom: 5px;
+  padding: 10px;
+  background-color: rgb(218, 216, 216);
+  cursor: pointer;
+}
+
+.profileListItems.active {
+  border-left: 5px solid red;
+}
+
+.ListTitles {
+  margin-left: 30px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 400px) {
+  .profileListItems {
+    padding: 5px;
+  }
+  .ListTitles {
+    font-size: 15px;
+    margin-left: 0px;
+  }
+  .profileListItems.active {
+    border-left: 5px solid green;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .profileListItems {
+    padding: 5px;
+  }
+  .ListTitles {
+    font-size: 15px;
+    margin-left: 0px;
+  }
+  .profileListItems.active {
+    border-left: 5px solid green;
+  }
+}

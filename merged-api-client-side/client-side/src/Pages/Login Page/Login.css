@@ -1,0 +1,214 @@
+.login {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1529703189288-3b14aeffb248?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80");
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: myLogin 1s infinite;
+  overflow-x: hidden;
+}
+
+@keyframes myLogin {
+  from {
+    background-color: rgb(77, 75, 75);
+  }
+  to {
+    background-color: rgb(23, 23, 24);
+  }
+}
+
+.loginWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.register {
+  position: absolute;
+  top: 100px;
+  right: 100px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  background-color: rgb(10, 161, 73);
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.loginTitle {
+  font-size: 40px;
+  color: white;
+  font-weight: 500;
+}
+
+.inputItemx {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputItemx > label {
+  font-size: 25px;
+  color: white;
+}
+
+.inputItemx > input {
+  width: 350px;
+  margin-bottom: 10px;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  opacity: 0.8;
+  font-size: 16px;
+}
+
+.loginButton {
+  margin-top: 15px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  width: 120px;
+  background-color: rgb(194, 75, 75);
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.loginButton:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 430px) {
+  .login {
+    width: 430px;
+    overflow-x: hidden;
+  }
+  .register {
+    right: 25px;
+  }
+  .loginTitle {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .InputLabel {
+    display: none;
+  }
+  .inputItemx > input {
+    width: 320px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .login {
+    width: 400px;
+    overflow-x: hidden;
+  }
+  .register {
+    right: 10px;
+  }
+  .loginTitle {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .InputLabel {
+    display: none;
+  }
+  .inputItemx > input {
+    width: 320px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 384px) {
+  .login {
+    width: 384px;
+    overflow-x: hidden;
+  }
+  .register {
+    right: 10px;
+  }
+  .loginTitle {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .InputLabel {
+    display: none;
+  }
+  .inputItemx > input {
+    width: 320px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .login {
+    width: 375px;
+    overflow-x: hidden;
+  }
+  .register {
+    right: 10px;
+  }
+  .loginTitle {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .InputLabel {
+    display: none;
+  }
+  .inputItemx > input {
+    width: 320px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .login {
+    width: 360px;
+    overflow-x: hidden;
+  }
+  .register {
+    right: 10px;
+  }
+  .loginTitle {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .InputLabel {
+    display: none;
+  }
+  .inputItemx > input {
+    width: 320px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .login {
+    width: 320px;
+    overflow-x: hidden;
+  }
+  .register {
+    right: 10px;
+  }
+  .loginTitle {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .InputLabel {
+    display: none;
+  }
+  .inputItemx > input {
+    width: 280px;
+    margin-bottom: 20px;
+  }
+}

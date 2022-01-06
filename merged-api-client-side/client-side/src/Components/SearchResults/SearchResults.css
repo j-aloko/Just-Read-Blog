@@ -1,0 +1,38 @@
+.searchResults {
+  position: fixed;
+  top: 60px;
+  width: 185px;
+  height: 250px;
+  background-color: rgb(17, 17, 17);
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.searchResultsWrapper {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.SearchImg {
+  height: 30px;
+  width: 30px;
+  border: 0.5px solid white;
+  border-radius: 50%;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
+.searchName {
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 420px) {
+  .searchResults {
+    width: 160px;
+    height: 150px;
+  }
+}

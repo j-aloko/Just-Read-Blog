@@ -1,0 +1,174 @@
+.aboutContainer {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: myabout 1s infinite;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80");
+}
+
+@keyframes myabout {
+  from {
+    background-color: rgb(117, 115, 115);
+  }
+  to {
+    background-color: rgb(27, 27, 27);
+  }
+}
+
+.aboutWrapper {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.aboutWriteUps {
+  margin-top: 100px;
+  margin-left: 40px;
+  max-width: 400px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.signUp {
+  margin-top: 20px;
+}
+
+.blogName {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 45px;
+}
+
+.aboutDescription {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.BecomeAWriter {
+  padding: 20px;
+  width: 300px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  border: 0.5px solid white;
+  font-size: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 430px) {
+  .aboutContainer {
+    width: 430px;
+  }
+  .blogName {
+    font-size: 30px;
+  }
+  .aboutDescription {
+    font-size: 15px;
+  }
+  .BecomeAWriter {
+    font-size: 18px;
+    margin-top: 50px;
+    width: 360px;
+  }
+  .aboutWriteUps {
+    margin-top: 150px;
+    margin-left: 8px;
+    margin-right: 8px;
+    max-width: 430px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .aboutContainer {
+    width: 400px;
+  }
+  .blogName {
+    font-size: 30px;
+  }
+  .aboutDescription {
+    font-size: 15px;
+  }
+  .BecomeAWriter {
+    font-size: 18px;
+    margin-top: 50px;
+    width: 340px;
+  }
+  .aboutWriteUps {
+    margin-top: 150px;
+    margin-left: 8px;
+    margin-right: 8px;
+    max-width: 400px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .aboutContainer {
+    width: 375px;
+  }
+  .blogName {
+    font-size: 30px;
+  }
+  .aboutDescription {
+    font-size: 15px;
+  }
+  .BecomeAWriter {
+    font-size: 18px;
+    margin-top: 50px;
+    width: 330px;
+  }
+  .aboutWriteUps {
+    margin-top: 150px;
+    margin-left: 8px;
+    margin-right: 8px;
+    max-width: 375px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .aboutContainer {
+    width: 360px;
+  }
+  .blogName {
+    font-size: 30px;
+  }
+  .aboutDescription {
+    font-size: 15px;
+  }
+  .BecomeAWriter {
+    font-size: 18px;
+    margin-top: 50px;
+    width: 330px;
+  }
+  .aboutWriteUps {
+    margin-top: 150px;
+    margin-left: 8px;
+    margin-right: 8px;
+    max-width: 360px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .aboutContainer {
+    width: 320px;
+  }
+  .blogName {
+    font-size: 30px;
+  }
+  .aboutDescription {
+    font-size: 15px;
+  }
+  .BecomeAWriter {
+    font-size: 18px;
+    margin-top: 50px;
+    width: 290px;
+  }
+  .aboutWriteUps {
+    margin-top: 150px;
+    margin-left: 8px;
+    margin-right: 8px;
+    max-width: 280px;
+  }
+}

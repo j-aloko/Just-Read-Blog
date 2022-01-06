@@ -1,0 +1,120 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.headerImg {
+  animation: myheader 1s infinite;
+}
+
+@keyframes myheader {
+  from {
+    background-color: rgb(219, 218, 218);
+  }
+  to {
+    background-color: rgb(168, 168, 170);
+  }
+}
+
+.headerTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 10px;
+}
+
+.headerTitleSmall {
+  font-size: 40px;
+  opacity: 0.9;
+  font-family: "Noto Serif", serif;
+}
+
+.headerTitleBold {
+  position: absolute;
+  top: 32px;
+  font-size: 100px;
+  color: rgb(73, 73, 73);
+  font-family: "Source Serif Pro", serif;
+}
+
+.headerImg {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  margin-top: 24px;
+}
+
+@media only screen and (max-width: 320px) {
+  .header {
+    max-width: 320px;
+    max-height: 300px;
+  }
+  .headerImg {
+    width: 100%;
+    height: 100%;
+  }
+  .headerTitleSmall {
+    font-size: 30px;
+  }
+  .headerTitleBold {
+    font-size: 60px;
+    top: 40px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .header {
+    max-width: 375px;
+    max-height: 300px;
+  }
+  .headerImg {
+    width: 100%;
+    height: 100%;
+  }
+  .headerTitleSmall {
+    font-size: 30px;
+  }
+  .headerTitleBold {
+    font-size: 60px;
+    top: 40px;
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  .header {
+    max-width: 412px;
+    max-height: 300px;
+  }
+  .headerImg {
+    width: 100%;
+    height: 100%;
+  }
+  .headerTitleSmall {
+    font-size: 30px;
+  }
+  .headerTitleBold {
+    font-size: 60px;
+    top: 40px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .header {
+    max-width: 430px;
+    max-height: 300px;
+  }
+  .headerImg {
+    width: 100%;
+    height: 100%;
+  }
+  .headerTitleSmall {
+    font-size: 30px;
+  }
+  .headerTitleBold {
+    font-size: 60px;
+    top: 40px;
+  }
+}

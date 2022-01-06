@@ -1,0 +1,99 @@
+.Authorpost {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 385px;
+  cursor: pointer;
+}
+
+.AuthorpostImage {
+  width: 380px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.AuthorpostCategory {
+  margin-top: 5px;
+  font-size: 12px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.AuthorpostTitle {
+  margin-top: 15px;
+  text-align: center;
+  max-width: 380px;
+}
+
+.AuthorPostTimePosted {
+  margin-top: 15px;
+  font-size: 12px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+@media only screen and (max-width: 430px) {
+  .authorContainer {
+    max-width: 430px;
+  }
+  .Authorpost {
+    width: 430px;
+  }
+  .AuthorpostImage {
+    width: 430px;
+    border-radius: 0;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .authorContainer {
+    max-width: 400px;
+  }
+  .Authorpost {
+    width: 400px;
+  }
+  .AuthorpostImage {
+    width: 400px;
+    border-radius: 0;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .authorContainer {
+    max-width: 375px;
+  }
+  .Authorpost {
+    width: 375px;
+  }
+  .AuthorpostImage {
+    width: 375px;
+    border-radius: 0;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .authorContainer {
+    max-width: 360px;
+  }
+  .Authorpost {
+    width: 360px;
+  }
+  .AuthorpostImage {
+    width: 100%;
+    border-radius: 0;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .authorContainer {
+    max-width: 320px;
+  }
+  .Authorpost {
+    width: 320px;
+  }
+  .AuthorpostImage {
+    width: 100%;
+    border-radius: 0;
+  }
+}

@@ -1,0 +1,121 @@
+.authorsPost {
+  margin-top: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.authorPostWrapper {
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.nameTitle {
+  opacity: 0.5;
+}
+
+.allAuthorsPosts {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.AuthorSkeleton {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.authorPostsss {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 430px) {
+  .authorsPost {
+    max-width: 430px;
+  }
+
+  .authorPostWrapper {
+    width: 100%;
+    margin: 0;
+  }
+
+  .allAuthorsPosts {
+    width: 100%;
+  }
+  .authorPostsss {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .authorsPost {
+    max-width: 400px;
+  }
+
+  .authorPostWrapper {
+    width: 100%;
+    margin: 0;
+  }
+
+  .allAuthorsPosts {
+    width: 100%;
+  }
+  .authorPostsss {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .authorsPost {
+    max-width: 375px;
+  }
+
+  .authorPostWrapper {
+    width: 100%;
+    margin: 0;
+  }
+
+  .allAuthorsPosts {
+    width: 100%;
+  }
+  .authorPostsss {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .authorsPost {
+    max-width: 360px;
+  }
+
+  .authorPostWrapper {
+    width: 100%;
+    margin: 0;
+  }
+
+  .allAuthorsPosts {
+    width: 100%;
+  }
+  .authorPostsss {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .authorsPost {
+    max-width: 320px;
+  }
+
+  .authorPostWrapper {
+    width: 320px;
+    margin: 0;
+  }
+
+  .allAuthorsPosts {
+    width: 320px;
+  }
+  .authorPostsss {
+    margin-left: 0px;
+  }
+}

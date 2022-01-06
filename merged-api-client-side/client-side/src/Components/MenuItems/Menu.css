@@ -1,0 +1,39 @@
+.menuContainer {
+  width: 200px;
+  height: 70vh;
+  background-color: rgb(19, 18, 18);
+  position: fixed;
+  top: 0;
+  right: -200px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 1s ease;
+}
+
+.menuContainer.menu {
+  right: 0px;
+}
+
+.menuItemsx {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: rgb(173, 173, 173);
+  cursor: pointer;
+}
+
+li {
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 430px) {
+  .menuContainer {
+    height: 55vh;
+    width: 200px;
+  }
+}

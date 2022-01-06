@@ -1,0 +1,434 @@
+.postPage {
+  display: flex;
+  margin-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.readPageWrapper {
+  flex: 8;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.postPageImage {
+  object-fit: cover;
+  border-radius: 10px;
+  max-width: 100%;
+  height: 500px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.postPageTitle {
+  max-width: 950px;
+  font-size: 30px;
+}
+
+.titleAndIconsWrapper {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.updateTitlee {
+  margin-top: 20px;
+  font-size: 22px;
+  border: none;
+  padding: 10px;
+  width: 900px;
+}
+
+.updateTitlee:focus {
+  outline: none;
+}
+
+.postPageIcons {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 60px;
+}
+
+.editIcon {
+  color: rgb(48, 108, 161);
+}
+
+.deleteIcon {
+  color: rgb(207, 17, 17);
+}
+
+.authorNameAndTimestamp {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(90, 95, 24);
+  font-weight: bold;
+}
+
+.publishUpdate {
+  padding: 5px 20px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(17, 114, 13);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.publishUpdate:disabled {
+  cursor: not-allowed;
+}
+
+.authorName {
+  font-size: 12px;
+  margin: 5px;
+}
+
+.timeS {
+  margin: 5px;
+  font-size: 12px;
+}
+
+.postBody {
+  font-size: 15px;
+  line-height: 24px;
+  margin-top: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.postDescription {
+  max-width: 90%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.sidebarSection {
+  flex: 3;
+  margin: 10px;
+}
+
+.skeletonSidebar {
+  margin-top: 20px;
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainCommentContainer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.viewComments {
+  font-weight: 500;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.CommentForm {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+.mainCommentTextArea {
+  height: 130px;
+  width: 550px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  border: 0.5px solid gray;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+.submitComment {
+  width: 160px;
+  border: none;
+  background-color: rgb(34, 33, 33);
+  color: white;
+  font-size: 18px;
+  font: 300px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.horizontalLine {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.relatedPostMainContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.relatedPostTitle {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .postPage {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .postPage {
+    flex-direction: column;
+    margin-top: 100px;
+    max-width: 430px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .readPageWrapper {
+    margin-top: 20px;
+    max-width: 420px;
+  }
+  .postPageImage {
+    border-radius: 0;
+    width: 100%;
+    height: 350px;
+  }
+  .postPageIcons {
+    display: none;
+  }
+  .postPageTitle {
+    width: 100%;
+    font-size: 20px;
+  }
+  .postDescription {
+    max-width: 100%;
+    font-size: 12px;
+  }
+  .postBody {
+    font-size: 12px;
+    margin-top: 15px;
+    max-width: 420px;
+  }
+
+  .CommentForm {
+    max-width: 420px;
+  }
+  .mainCommentTextArea {
+    width: auto;
+  }
+  .submitComment {
+    width: 150px;
+  }
+
+  .relatedPostMainContainer {
+    max-width: 420px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .postPage {
+    flex-direction: column;
+    margin-top: 100px;
+    max-width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .readPageWrapper {
+    margin-top: 20px;
+    max-width: 400px;
+  }
+  .postPageImage {
+    border-radius: 0;
+    width: 100%;
+    height: 350px;
+  }
+  .postPageIcons {
+    display: none;
+  }
+  .postPageTitle {
+    width: 100%;
+    font-size: 20px;
+  }
+  .postDescription {
+    max-width: 100%;
+    font-size: 12px;
+  }
+  .postBody {
+    font-size: 12px;
+    margin-top: 15px;
+    max-width: 400px;
+  }
+
+  .CommentForm {
+    max-width: 400px;
+  }
+  .mainCommentTextArea {
+    width: auto;
+  }
+  .submitComment {
+    width: 150px;
+  }
+
+  .relatedPostMainContainer {
+    max-width: 400px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .postPage {
+    flex-direction: column;
+    margin-top: 100px;
+    max-width: 375px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .readPageWrapper {
+    margin-top: 20px;
+    max-width: 375px;
+  }
+  .postPageImage {
+    border-radius: 0;
+    width: 100%;
+    height: 350px;
+  }
+  .postPageIcons {
+    display: none;
+  }
+  .postPageTitle {
+    width: 100%;
+    font-size: 20px;
+  }
+  .postDescription {
+    max-width: 100%;
+    font-size: 12px;
+  }
+  .postBody {
+    font-size: 12px;
+    margin-top: 15px;
+    max-width: 375px;
+  }
+
+  .CommentForm {
+    max-width: 375px;
+  }
+  .mainCommentTextArea {
+    width: auto;
+  }
+  .submitComment {
+    width: 150px;
+  }
+
+  .relatedPostMainContainer {
+    max-width: 375px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .postPage {
+    flex-direction: column;
+    margin-top: 100px;
+    max-width: 360px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .readPageWrapper {
+    margin-top: 20px;
+    max-width: 360px;
+  }
+  .postPageImage {
+    border-radius: 0;
+    width: 100%;
+    height: 350px;
+  }
+  .postPageIcons {
+    display: none;
+  }
+  .postPageTitle {
+    width: 100%;
+    font-size: 20px;
+  }
+  .postDescription {
+    max-width: 100%;
+    font-size: 12px;
+  }
+  .postBody {
+    font-size: 12px;
+    margin-top: 15px;
+    max-width: 360px;
+  }
+
+  .CommentForm {
+    max-width: 360px;
+  }
+  .mainCommentTextArea {
+    width: auto;
+  }
+  .submitComment {
+    width: 150px;
+  }
+
+  .relatedPostMainContainer {
+    max-width: 360px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .postPage {
+    flex-direction: column;
+    margin-top: 100px;
+    max-width: 320px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .readPageWrapper {
+    margin-top: 20px;
+    max-width: 320px;
+  }
+  .postPageImage {
+    border-radius: 0;
+    width: 100%;
+    height: 350px;
+  }
+  .postPageIcons {
+    display: none;
+  }
+  .postPageTitle {
+    width: 100%;
+    font-size: 20px;
+  }
+  .postDescription {
+    max-width: 100%;
+    font-size: 12px;
+  }
+  .postBody {
+    font-size: 12px;
+    margin-top: 15px;
+    max-width: 320px;
+  }
+
+  .CommentForm {
+    max-width: 320px;
+  }
+  .mainCommentTextArea {
+    width: auto;
+  }
+  .submitComment {
+    width: 150px;
+  }
+
+  .relatedPostMainContainer {
+    max-width: 320px;
+  }
+}

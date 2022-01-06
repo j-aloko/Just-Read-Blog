@@ -1,0 +1,26 @@
+.noResults {
+  position: fixed;
+  top: 60px;
+  width: 185px;
+  height: 150px;
+  background-color: rgb(17, 17, 17);
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.closeIcon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.results {
+  margin-top: 5px;
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 420px) {
+  .noResults {
+    width: 160px;
+  }
+}

@@ -1,0 +1,16 @@
+.homepage {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+}
+@media only screen and (max-width: 420px) {
+  .homepage {
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .homepage {
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+}

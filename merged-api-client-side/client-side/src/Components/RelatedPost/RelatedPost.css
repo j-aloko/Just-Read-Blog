@@ -1,0 +1,48 @@
+.relatedPostContainer {
+  margin-bottom: 20px;
+}
+
+.Relatedpost {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.relatedPostImage {
+  height: 300px;
+  width: 500px;
+  object-fit: cover;
+}
+
+.RelatedPostCategory {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.RelatedPostTimePosted {
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 400px) {
+  .Relatedpost {
+    margin-left: 0;
+  }
+
+  .relatedPostImage {
+    width: 375px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .Relatedpost {
+    margin-left: 0;
+  }
+
+  .relatedPostImage {
+    width: 420px;
+  }
+}

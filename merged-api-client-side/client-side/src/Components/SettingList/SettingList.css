@@ -1,0 +1,93 @@
+.settingList {
+  flex: 2.5;
+  height: 100vh;
+  -webkit-box-shadow: 1px 3px 4px 1px #000000;
+  box-shadow: 1px 3px 4px 1px #000000;
+}
+
+.settingListWrapper {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.imgAndUsername {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.imgWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.uploadIcon {
+  position: absolute;
+  top: 45px;
+  left: 40px;
+  opacity: 0;
+}
+
+.uploadIcon:hover {
+  opacity: 1;
+}
+
+.usersImage {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  vertical-align: middle;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.updateImageButton {
+  width: 120px;
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(47, 25, 129);
+  cursor: pointer;
+}
+
+.deleteButtonWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.DeletUser {
+  width: 160px;
+  padding: 15px;
+  border: none;
+  color: white;
+  font-weight: 500;
+  background-color: rgb(218, 16, 16);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 420px) {
+  .usersImage {
+    height: 80px;
+    width: 80px;
+  }
+  .uploadIcon {
+    top: 25px;
+    left: 25px;
+    opacity: 1;
+  }
+  .updateImageButton {
+    width: 80px;
+    padding: 5px;
+  }
+  .DeletUser {
+    padding: 10px;
+    width: 140px;
+  }
+}

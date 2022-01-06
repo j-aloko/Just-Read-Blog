@@ -1,0 +1,176 @@
+.changeArea {
+  flex: 9;
+  height: 100vh;
+}
+
+.basicDetailsWrapper {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profileTitle {
+  margin-bottom: 20px;
+}
+
+.basicDetailsForm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.inputItem {
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 450px;
+  border: none;
+  border-bottom: 0.5px solid gray;
+}
+
+.inputItem:focus {
+  outline: none;
+}
+
+.about {
+  width: 500px;
+  height: 130px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.about:focus {
+  outline: none;
+}
+
+.update {
+  width: 150px;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(31, 17, 94);
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.successFeedBack {
+  display: flex;
+  align-items: center;
+  background-color: green;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  width: 400px;
+  margin-top: 20px;
+}
+
+.errorFeedBack {
+  display: flex;
+  align-items: center;
+  background-color: red;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  width: 400px;
+  margin-top: 20px;
+}
+
+.message {
+  margin-left: 5px;
+}
+
+@media only screen and (max-width: 420px) {
+  .basicDetailsWrapper {
+    margin: 5px;
+  }
+  .profileTitle {
+    font-size: 20px;
+  }
+  .basicDetailsForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .inputItem {
+    width: 180px;
+  }
+
+  .inputItem:focus {
+    outline: none;
+  }
+
+  .about {
+    width: 190px;
+    height: 100px;
+    border-radius: 0px;
+  }
+
+  .update {
+    width: 120px;
+    padding: 10px;
+    font-weight: 500;
+  }
+
+  .successFeedBack {
+    width: 170px;
+    font-size: 10px;
+  }
+
+  .errorFeedBack {
+    width: 170px;
+    font-size: 10px;
+  }
+
+  .message {
+    margin-left: 5px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .basicDetailsWrapper {
+    margin: 5px;
+  }
+  .profileTitle {
+    font-size: 12px;
+  }
+  .basicDetailsForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .inputItem {
+    width: 120px;
+  }
+
+  .inputItem:focus {
+    outline: none;
+  }
+
+  .about {
+    width: 130px;
+    height: 100px;
+    border-radius: 0px;
+  }
+
+  .update {
+    width: 90px;
+    padding: 10px;
+    font-weight: 500;
+  }
+
+  .successFeedBack {
+    width: 120px;
+    font-size: 10px;
+  }
+
+  .errorFeedBack {
+    width: 120px;
+    font-size: 10px;
+  }
+
+  .message {
+    margin-left: 5px;
+  }
+}

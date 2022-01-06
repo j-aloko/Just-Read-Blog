@@ -1,0 +1,13 @@
+.notifyAndImg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.notificationImg {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  vertical-align: middle;
+}

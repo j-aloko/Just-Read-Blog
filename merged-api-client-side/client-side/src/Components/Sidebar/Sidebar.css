@@ -1,0 +1,142 @@
+.sidebar {
+  flex: 3;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.sidebarImgAndDesc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebarTitle {
+  border-top: 1px solid rgb(182, 181, 181);
+  border-bottom: 1px solid rgb(182, 181, 181);
+  text-align: center;
+  width: 100%;
+}
+.sidebarImg {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+.sidebarDesc {
+  margin-top: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.sidebarCategories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.sidebarCategoriesTitle {
+  border-top: 1px solid rgb(182, 181, 181);
+  border-bottom: 1px solid rgb(182, 181, 181);
+  text-align: center;
+  width: 100%;
+}
+
+.lists {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.listItem {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.sidebarSocialHandles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.sidebarSocialIconTitle {
+  border-top: 1px solid rgb(182, 181, 181);
+  border-bottom: 1px solid rgb(182, 181, 181);
+  text-align: center;
+  width: 100%;
+}
+.sidebarSocialIcons {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.socialIcons {
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 400px) {
+  .sidebar {
+    max-width: 375px;
+  }
+
+  .lists {
+    margin-top: 10px;
+  }
+
+  .listItem {
+    margin-top: 0;
+    font-size: 10px;
+  }
+
+  .sidebarImg {
+    width: 150px;
+    height: 150px;
+  }
+
+  .sidebarDesc {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .sidebar {
+    max-width: 420px;
+  }
+
+  .lists {
+    margin-top: 10px;
+  }
+
+  .listItem {
+    margin-top: 0;
+    font-size: 10px;
+  }
+
+  .sidebarImg {
+    width: 150px;
+    height: 150px;
+  }
+
+  .sidebarDesc {
+    font-size: 12px;
+  }
+}
